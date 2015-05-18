@@ -71,6 +71,9 @@ def test_everything(savedir=''):
         print "*****ammonia_test_script.py*****"
         execfile(os.path.join(dir_prefix,'ammonia_test_script.py'))
 
+        print "*****test_masking.py*****"
+        execfile(os.path.join(dir_prefix,'test_masking.py'))
+
     print "#####Testing Examples#####"
     dir_prefix += example_prefix
         
